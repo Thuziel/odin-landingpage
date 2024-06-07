@@ -112,21 +112,27 @@
     text-align: center;
     font-weight: 600;
     text-align: center;
+    border: 4px solid #3882F6;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .card p {
     width: 90%;
-    margin: 0 auto;
+    margin: 16px auto;
 }
 
 .img {
-    width: 200px;
+    width: 100%;
     height: 200px;
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
-    border: 4px solid #3882F6;
-    margin-bottom: 16px;
+    border-radius: 20px 20px 0 0;
 }
 
 .quote {
