@@ -181,3 +181,7 @@
     font-size: 18px;
     padding: 24px;
 }
+
+.footer a {
+    color: white;
+}
